@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="header.panel">
+            <block class="Magento\Tblock\Block\Display" name="tblock_display2" template="Magento_Tblock::sayhello.phtml" />
+        </referenceContainer>
+        <referenceContainer name="footer">
+            <block class="Magento\Tblock\Block\Display" name="tblock_display1" template="Magento_Tblock::sayhello.phtml" />
+        </referenceContainer>
+    </body>
+</page>

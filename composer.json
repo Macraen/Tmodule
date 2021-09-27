@@ -1,0 +1,13 @@
+{
+  "name": "macraen/magentohellow",
+  "description": "Modules for Magento 2",
+  "type": "module",
+  "license": "GPL-3.0-only",
+  "authors": [
+    {
+      "name": "Max Macraen",
+      "email": "macraen.dev@gmail.com"
+    }
+  ],
+  "require": {}
+}
