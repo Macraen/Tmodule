@@ -1,13 +1,25 @@
 {
   "name": "macraen/magentohellow",
   "description": "Modules for Magento 2",
-  "type": "module",
-  "license": "GPL-3.0-only",
+  "version": "dev",
+  "type": "magento2-module",
+  "license": "MIT",
+  "minimum-stability": "dev",
   "authors": [
     {
       "name": "Max Macraen",
       "email": "macraen.dev@gmail.com"
     }
   ],
-  "require": {}
+  "require": {
+    "php": ">=7.3.9"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Macraen\\HellowMagento\\": ""
+    }
+  }
 }
