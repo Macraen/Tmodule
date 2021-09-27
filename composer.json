@@ -4,7 +4,6 @@
   "version": "dev-dev",
   "type": "magento2-module",
   "license": "MIT",
-  "minimum-stability": "dev",
   "authors": [
     {
       "name": "Max Macraen",
