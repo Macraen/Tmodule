@@ -3,7 +3,7 @@
   "description": "Modules for Magento 2",
   "version": "1.10.20",
   "type": "module",
-  "license": "GPL-3.0-only",
+  "license": "MIT",
   "minimum-stability": "dev",
   "authors": [
     {
