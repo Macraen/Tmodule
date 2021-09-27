@@ -3,11 +3,11 @@
     <body>
       <referenceBlock name="page.main.title">
           <action method="setPageTitle">
-              <argument name="title" xsi:type="string">Tmodule</argument>
+              <argument name="title" xsi:type="string">Magento Hellow</argument>
           </action>
       </referenceBlock>
         <referenceContainer name="content">
-            <block class="Magento\Tblock\Block\Display" name="tblock_display" template="Magento_Tblock::sayhello.phtml" />
+            <block class="Macraen\magentoHellowBlock\Block\Display" name="tblock_display" template="Macraen_magentoHellowBlock::sayhello.phtml" />
         </referenceContainer>
     </body>
 </page>

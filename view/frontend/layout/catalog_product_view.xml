@@ -3,20 +3,11 @@
     <body>
         <referenceBlock name="product.info.addtocart">
             <block name="product.info.addtocart.instantPurchase" class="Magento\InstantPurchase\Block\Button" template="Magento_InstantPurchase::button.phtml" before="-"/>
-            <block class="Magento\Tblock\Block\Display" name="tblock_display3" template="Magento_Tblock::sayhello.phtml"/>
-<!--        <referenceContainer name="content">-->
-<!--            <block class="Magento\Catalog\Block\Product\View" name="product.info" template="Magento_Catalog::product/view/form.phtml" after="alert.urls">-->
-<!--                <block class="Magento\Framework\View\Element\Template" name="product.info.form.options" as="options_container">-->
-<!--                    <block class="Magento\Catalog\Block\Product\View" name="product.info.options.wrapper.bottom" as="product_options_wrapper_bottom" template="Magento_Catalog::product/view/options/wrapper/bottom.phtml">-->
-<!--&lt;!&ndash;                        <block class="Magento\Tblock\Block\Display" name="tblock_display3" template="Magento_Tblock::sayhello.phtml"/>&ndash;&gt;-->
-<!--                    </block>-->
-<!--                </block>-->
-<!--            </block>-->
-                <!--        </referenceContainer>-->
+            <block class="Macraen\magentoHellowBlock\Block\Display" name="tblock_display3" template="Macraen_magentoHellowBlock::sayhello.phtml"/>
         </referenceBlock>
         <referenceBlock name="product.info.addtocart.additional">
             <block name="product.info.addtocart.instantPurchase.additional" class="Magento\InstantPurchase\Block\Button" template="Magento_InstantPurchase::button.phtml" before="-"/>
-            <block class="Magento\Tblock\Block\Display" name="tblock_display4" template="Magento_Tblock::sayhello.phtml"/>
+            <block class="Macraen\magentoHellowBlock\Block\Display" name="tblock_display4" template="Macraen_magentoHellowBlock::sayhello.phtml"/>
         </referenceBlock>
     </body>
 </page>
