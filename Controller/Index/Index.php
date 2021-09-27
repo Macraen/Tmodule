@@ -1,5 +1,5 @@
 <?php
-namespace Magento\Tmodule\Controller\Index;
+namespace Macraen\magentohellow\Controller\Index;
 
 use Magento\Framework\App\Action\Action;
 use Magento\Framework\Controller\ResultFactory;
