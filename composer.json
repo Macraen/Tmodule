@@ -1,10 +1,10 @@
 {
   "name": "macraen/magentohellow",
   "description": "Modules for Magento 2",
-  "version": "dev",
+  "version": "dev-dev",
   "type": "magento2-module",
   "license": "MIT",
-  "minimum-stability": "dev",
+  "minimum-stability": "dev-dev",
   "authors": [
     {
       "name": "Max Macraen",
