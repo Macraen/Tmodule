@@ -1,7 +1,7 @@
 {
   "name": "macraen/magentohellow",
   "description": "Modules for Magento 2",
-  "version": "0.5",
+  "version": "test",
   "type": "magento2-module",
   "license": "MIT",
   "authors": [
