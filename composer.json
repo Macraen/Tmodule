@@ -1,0 +1,24 @@
+{
+  "name": "macraen/tmodule",
+  "description": "Modules for Magento 2",
+  "version": "0.5",
+  "type": "magento2-module",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Max Macraen",
+      "email": "macraen.dev@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Macraen\\Tmodule\\": ""
+    }
+  }
+}
