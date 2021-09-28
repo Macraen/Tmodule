@@ -1,6 +1,6 @@
 <?php
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'Macraen_hellowMagento',
+    'Magento_Tmodule',
     __DIR__
 );
