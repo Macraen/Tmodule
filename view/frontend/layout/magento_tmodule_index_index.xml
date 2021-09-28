@@ -7,7 +7,7 @@
           </action>
       </referenceBlock>
         <referenceContainer name="content">
-            <block class="Magento\Tblock\Block\Display" name="tblock_display" template="Magento_Tblock::sayhello.phtml" />
+            <block class="Magento\Tmodule\Block\Display" name="tmodule_display" template="Magento_Tmodule::sayhello.phtml" />
         </referenceContainer>
     </body>
 </page>
