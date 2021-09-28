@@ -1,7 +1,7 @@
 <?php
 declare (strict_types=1);
 
-namespace Magento\Tmodule\Setup\Patch\Data;
+namespace Macraen\Tmodule\Setup\Patch\Data;
 
 use Magento\Eav\Model\Entity\Attribute\ScopedAttributeInterface;
 use Magento\Eav\Setup\EavSetup;
