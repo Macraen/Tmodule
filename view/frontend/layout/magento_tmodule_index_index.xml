@@ -7,7 +7,7 @@
           </action>
       </referenceBlock>
         <referenceContainer name="content">
-            <block class="Macraen\Tmodule\Block\Display" name="tmodule_display" template="Macraen_Tmodule::sayhello.phtml" />
+            <block class="macraen\tmodule\Block\Display" name="tmodule_display" template="macraen_tmodule::sayhello.phtml" />
         </referenceContainer>
     </body>
 </page>

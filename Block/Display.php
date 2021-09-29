@@ -1,5 +1,5 @@
 <?php
-namespace Macraen\Tmodule\Block;
+namespace macraen\tmodule\Block;
 
 class Display extends \Magento\Framework\View\Element\Template
 {

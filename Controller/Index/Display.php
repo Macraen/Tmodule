@@ -1,5 +1,5 @@
 <?php
-namespace Macraen\Tmodule\Controller\Block;
+namespace macraen\tmodule\Controller\Block;
 
 use Magento\Framework\Controller\ResultFactory;
 
