@@ -1,6 +1,5 @@
 <?php
-namespace macraen\tmodule\Block;
-
+namespace Macraen\Tmodule\Block;
 class Display extends \Magento\Framework\View\Element\Template
 {
     public function __construct(\Magento\Framework\View\Element\Template\Context $context)

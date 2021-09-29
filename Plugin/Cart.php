@@ -1,5 +1,5 @@
 <?php
-namespace macraen\tmodule\Plugin;
+namespace Macraen\Tmodule\Plugin;
 
  class Cart {
     public function beforeAddProduct(\Magento\Checkout\Model\Cart $subject, $productInfo, $requestInfo = null){

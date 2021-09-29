@@ -3,7 +3,7 @@
     <body>
         <referenceBlock name="product.info.addtocart">
             <block name="product.info.addtocart.instantPurchase" class="Magento\InstantPurchase\Block\Button" template="Magento_InstantPurchase::button.phtml" before="-"/>
-            <block class="macraen\tmodule\Block\Display" name="tmodule_display3" template="macraen_tmodule::sayhello.phtml"/>
+            <block class="Macraen\Tmodule\Block\Display" name="tmodule_display3" template="Magento_Tmodule::sayhello.phtml"/>
 <!--        <referenceContainer name="content">-->
 <!--            <block class="Magento\Catalog\Block\Product\View" name="product.info" template="Magento_Catalog::product/view/form.phtml" after="alert.urls">-->
 <!--                <block class="Magento\Framework\View\Element\Template" name="product.info.form.options" as="options_container">-->
@@ -16,7 +16,7 @@
         </referenceBlock>
         <referenceBlock name="product.info.addtocart.additional">
             <block name="product.info.addtocart.instantPurchase.additional" class="Magento\InstantPurchase\Block\Button" template="Magento_InstantPurchase::button.phtml" before="-"/>
-            <block class="macraen\tmodule\Block\Display" name="tmodule_display4" template="macraen_tmodule::sayhello.phtml"/>
+            <block class="Macraen\Tmodule\Block\Display" name="tmodule_display4" template="Magento_Tmodule::sayhello.phtml"/>
         </referenceBlock>
     </body>
 </page>
