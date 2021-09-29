@@ -1,5 +1,5 @@
 <?php
-namespace Macraen\Tmodule\Controller\Index;
+namespace Macraen\Tmodule\Controller\Block;
 
 use Magento\Framework\Controller\ResultFactory;
 
