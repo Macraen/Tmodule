@@ -7,7 +7,7 @@
           </action>
       </referenceBlock>
         <referenceContainer name="content">
-            <block class="Macraen\Tmodule\Block\Display" name="tmodule_display" template="Magento_Tmodule::sayhello.phtml" />
+            <block class="Macraen\Tmodule\Block\Display" name="tmodule_display" cacheable="false" template="Macraen_Tmodule::sayhello.phtml" />
         </referenceContainer>
     </body>
 </page>

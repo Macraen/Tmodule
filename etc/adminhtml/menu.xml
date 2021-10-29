@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Macraen_Tmodule::manager" title="Macraen module" module="Macraen_Tmodule" sortOrder="10" resource="Macraen_Tmodule::manager" />
+        <add id="Macraen_Tmodule::add_row" title="Offline customer" module="Macraen_Tmodule" sortOrder="20" parent="Macraen_Tmodule::manager" action="grid/grid" resource="Macraen_Tmodule::add_row"/>
+    </menu>
+</config>

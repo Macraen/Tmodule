@@ -70,6 +70,7 @@ class AddGuarantePeriodAttribute implements DataPatchInterface
             'unique' => false,
             'apply_to' => 'simple',
         ]);
+
     }
 
     /**

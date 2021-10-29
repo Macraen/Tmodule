@@ -1,0 +1,26 @@
+<li id="step_code" data-bind="fadeVisible: isVisible">
+
+    <div class="step-title" data-bind="i18n: 'Delivery info'" data-role="title"></div>
+
+    <div id="checkout-step-title" class="step-content" data-type="content">
+        <form data-bind="submit: navigateToNextStep" novalidate="novalidate">
+            <div class="custom-checkout">
+                <!-- ko foreach: getRegion('field-group-custom') -->
+                <!-- ko template: getTemplate() --><!-- /ko -->
+                <!-- /ko -->
+            </div>
+
+            <hr />
+            <br />
+            <br />
+            <div class="actions-toolbar">
+                <div class="primary">
+                    <button data-role="opc-continue" type="submit" class="button action continue primary">
+                        <span><!-- ko i18n: 'Next' --><!-- /ko --></span>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+</li>

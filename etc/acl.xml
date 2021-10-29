@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin" title="Macraen">
+                <resource id="Macraen_Tmodule::manager" title="Macraen Module" sortOrder="51">
+                    <resource id="Macraen_Tmodule::add_row" title="Offline customer row" sortOrder="10"/>
+                    <resource id="Macraen_Tmodule::grid_list" title="Offline customer list" sortOrder="10"/>
+                    <resource id="Macraen_Tmodule::save" title="Offline customer save" sortOrder="10"/>
+                </resource>
+            </resource>
+        </resources>
+    </acl>
+</config>
