@@ -6,5 +6,8 @@
                 <argument name="title" xsi:type="string">Tmodule</argument>
             </action>
         </referenceBlock>
+        <referenceContainer name="content">
+            <block class="Macraen\Tmodule\Block\Display" name="tmodule_display" cacheable="false" template="Macraen_Tmodule::sayhello.phtml" />
+        </referenceContainer>
     </body>
 </page>

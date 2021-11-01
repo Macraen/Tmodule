@@ -20,7 +20,7 @@ class Display extends \Magento\Framework\App\Action\Action
 
     public function execute()
     {
-        if($this->customerSession->getCustomer()->getGroupId() == 2){
+        if($this->customerSession->getCustomer()->getGroupId() == 3){
             $page = $this->resultFactory->create(ResultFactory::TYPE_PAGE);
             return $page;
         }else{
